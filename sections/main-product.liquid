@@ -13,13 +13,13 @@
   .color-swatch.is-selected{
     border: 1.5px solid rgb(127,199,207);
   }
-.selected__option {
+  .selected__option {
   margin: 10px 0;
-}
-.selected__option b {
+  }
+  .selected__option b {
   color: gray;
-}
-.color-swatch.is-selected::after {
+  }
+  .color-swatch.is-selected::after {
   content: '✔';
   position: absolute;
   top: -7px;
@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
-}
+  }
     .color-swatch span{
     font-size: 14px;
           letter-spacing: 0px;
@@ -50,7 +50,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-}
+  }
     .color-swatch {
       text-align: center;
     }
@@ -60,7 +60,7 @@
        flex-wrap: wrap;
      }
   }
-  {% endstyle %}
+{% endstyle %}
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
@@ -469,11 +469,11 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
- <p id="Variant-Unit-{{ section.id }}"  class="variant-unit">
-  <span><b>Verpackungseinheit : </b></span>
-  {{ product.selected_or_first_available_variant.metafields.custom.unit 
-   | default: product.metafields.custom.unit }}
-</p>
+            <p id="Variant-Unit-{{ section.id }}"  class="variant-unit">
+              <span><b>Verpackungseinheit : </b></span>
+              {{ product.selected_or_first_available_variant.metafields.custom.unit 
+              | default: product.metafields.custom.unit }}
+            </p>
 
             
             {%- when 'description' -%}
