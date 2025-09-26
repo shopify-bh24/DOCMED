@@ -1,1 +1,24 @@
-{"sections":{"main":{"type":"main-account","settings":{"color_scheme":"scheme-77b2cfd5-6085-45ba-893c-34c1568058e1","padding_top":0,"padding_bottom":60}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "color_scheme": "scheme-7c614d0f-85c3-40ae-a423-5ea9280ea90b",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
