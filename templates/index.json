@@ -791,7 +791,7 @@
         "title": "Kontaktieren Sie uns!",
         "heading_size": "h1",
         "head_align": "left",
-        "heading_color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+        "heading_color_scheme": "scheme-7c614d0f-85c3-40ae-a423-5ea9280ea90b",
         "head_space": true,
         "description": "",
         "description_style": "body",
@@ -804,7 +804,7 @@
         "footer_contact_no": "<p><strong>0234 - 357 905 59</strong></p>",
         "show_social": true,
         "contactfollow": "",
-        "color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+        "color_scheme": "scheme-7c614d0f-85c3-40ae-a423-5ea9280ea90b",
         "padding_top": 60,
         "padding_bottom": 60
       }
