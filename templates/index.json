@@ -631,6 +631,7 @@
             "default_open": false,
             "heading": "Wie lange dauert der Versand?",
             "icon": "none",
+            "custom_image": "shopify://shop_images/Schneller_Versand_6b85304d-7459-4eba-a703-241e94fe3dab.png",
             "row_content": "<p>Die Lieferzeit variiert je nach Produktverfügbarkeit. In der Regel erfolgt der Versand innerhalb von <strong>1-3 Werktagen</strong>. Genauere Informationen finden Sie in der Produktbeschreibung oder im Checkout.</p>",
             "page": ""
           }
