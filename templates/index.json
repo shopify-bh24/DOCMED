@@ -212,6 +212,7 @@
         },
         "item_zTUFqH": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitled_design_28.png",
             "title": "Megro",
@@ -221,6 +222,7 @@
         },
         "item_yKLy6g": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/servoprax_medizintechnik.png",
             "title": "Servoprax",
