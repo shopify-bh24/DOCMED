@@ -150,7 +150,7 @@
     "predictive_search_show_price": true,
     "currency_code_enabled": false,
     "cart_type": "drawer",
-    "drawer_color_scheme": "background-1",
+    "drawer_color_scheme": "inverse",
     "wb_carticon": "wb_shopcart",
     "wb_cartnumber": "wb_shoptotal",
     "show_vendor": true,
@@ -273,7 +273,7 @@
           "button": "#1d2e40",
           "button_label": "#ffffff",
           "button_hover": "#ffffff",
-          "button_label_hover": "rgba(0,0,0,0)",
+          "button_label_hover": "#ffffff",
           "secondary_button_label": "#ffffff",
           "link_hover": "rgba(0,0,0,0)",
           "shadow": "rgba(0,0,0,0)"
@@ -295,7 +295,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#7fc7cf",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#1d2e40",
           "button": "#1d2e40",
