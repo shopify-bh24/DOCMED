@@ -781,6 +781,28 @@
         "editable_shipping_address_violations_message_title": "Fügen Sie diese Informationen hinzu, um Ihre Bestellung abzuschließen:",
         "company_location_changed_product_removed": "Ihr Warenkorb wurde aktualisiert, da einige Produkte an diesem Standort nicht verfügbar sind. Bitte überprüfen Sie Ihre Bestellung, bevor Sie diese aufgeben.",
         "payment_method_not_available_with_review_requirement": "Die von Ihnen ausgewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung erst fällig wird, wenn Ihre Bestellung bestätigt ist."
+      },
+      "review_address_modal": {
+        "subtitle_no_match": "Diese Adresse stimmt mit keiner Ihrer gespeicherten Adressen überein.",
+        "subtitle_must_use": "Ihre Bestellung wird an diese Adresse versandt."
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Es gibt {{ count }} Standort mit verfügbarem Bestand in Ihrer Nähe.",
+          "other": "Es gibt {{ count }} Standorte mit verfügbarem Bestand in Ihrer Nähe."
+        },
+        "your_location": "Ihr Standort",
+        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
+        "selected_pickup_option_no_longer_available": {
+          "title": "Ihr zuvor ausgewählter Standort ist nicht mehr verfügbar."
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Ihre Bestellung konnte nicht bearbeitet werden, weil der Rabattcode nicht mehr verfügbar ist. Bitte prüfen Sie Ihren Gesamtbestellwert und versuchen Sie es erneut."
+      },
+      "wallets": {
+        "payment_in_progress_body": "Ihre Zahlung wird verarbeitet. Ihre Bestellung wird in Kürze abgeschlossen.",
+        "redirection_notice": "Nachdem Sie auf „{{buttonLabel}}“ geklickt haben, werden Sie zu {{walletName}} weitergeleitet, um Ihren Einkauf sicher abzuschließen."
       }
     }
   },
