@@ -841,6 +841,10 @@
         "all_products_in_cart_unavailable": {
           "one": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
           "other": "Diese Produkte sind in Ihrem Land/Ihrer Region nicht verfügbar."
+        },
+        "products_not_available": {
+          "one": "Dieses Produkt wurde aus Ihrem Warenkorb entfernt, da es in Ihrem Land/Ihrer Region nicht verfügbar ist.",
+          "other": "Diese Produkte wurden aus Ihrem Warenkorb entfernt, da sie in Ihrem Land/Ihrer Region nicht verfügbar sind."
         }
       },
       "change_cart_localization": {
