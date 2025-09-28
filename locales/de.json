@@ -736,6 +736,20 @@
           "sold_out": {
             "heading": "Ihr Warenkorb ist ausverkauft"
           }
+        },
+        "footer": {
+          "body": "Artikel in Ihrem Warenkorb werden bis zum Abschluss des Checkouts für Sie reserviert."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Bei der Bearbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte wenden Sie sich an den Kundensupport"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "Dieser Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Zustellmethoden verfügbar sind.",
+            "other": "Diese Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Zustellmethoden verfügbar sind."
+          }
         }
       }
     }
