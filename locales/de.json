@@ -1051,7 +1051,37 @@
           "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte.",
           "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite Ihrer Karte.",
           "card_verification_value_explanation": "Ein 3-stelliger Sicherheitscode, der sich in der Regel auf der Rückseite Ihrer Karte befindet. American Express-Karten haben einen 4-stelligen Code auf der Vorderseite."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Geben Sie den Namen genau so ein, wie er auf Ihrer Karte steht.",
+          "credit_card_verification_value_blank": "Geben Sie den CVV- oder Sicherheitscode Ihrer Karte ein."
         }
+      },
+      "google_pay": {
+        "errors": {
+          "missing_billing_address": "Google Pay erfordert eine Rechnungsadresse. Bitte fügen Sie eine zu Ihrem Konto hinzu."
+        }
+      },
+      "apple_pay": {
+        "errors": {
+          "missing_billing_address": "Apple Pay erfordert eine Rechnungsadresse. Bitte fügen Sie eine zu Ihrem Konto hinzu."
+        }
+      },
+      "store_credit": {
+        "details_modal": {
+          "expirable_balance_info": "Ein Teil Ihres Guthabens verfällt an einem Datum, das in der Zukunft liegt."
+        }
+      }
+    },
+    "enable_javascript": "Um Ihr Konto anzusehen, aktivieren Sie JavaScript in Ihren Browsereinstellungen oder melden Sie sich über ein anderes Gerät an.",
+    "settings": {
+      "log_out_everywhere": {
+        "description": "Wenn Sie Ihr Gerät verloren haben und Bedenken bezüglich der Sicherheit haben, melden Sie sich bitte von allen Geräten ab."
+      }
+    },
+    "sign_in": {
+      "step_one": {
+        "subheading": "Geben Sie Ihre E-Mail-Adresse ein, und wir senden Ihnen einen Bestätigungscode."
       }
     }
   }
