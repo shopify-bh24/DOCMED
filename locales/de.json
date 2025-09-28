@@ -774,7 +774,13 @@
         },
         "contact_information": {
           "header": "Um Ihre Informationen zu aktualisieren, klicken Sie bitte hier: {{emailLink}}"
-        }
+        },
+        "subscription_changed": "Eines Ihrer Abonnements hat sich geändert.",
+        "company_location_changed": "Ihr Warenkorb wurde aktualisiert. Bitte überprüfen Sie Ihre Bestellung, bevor Sie diese aufgeben.",
+        "all_violations_content": "Kontaktieren Sie uns oder {{emailLink}}, um diese Informationen zu aktualisieren und Ihre Bestellung abzuschließen.",
+        "editable_shipping_address_violations_message_title": "Fügen Sie diese Informationen hinzu, um Ihre Bestellung abzuschließen:",
+        "company_location_changed_product_removed": "Ihr Warenkorb wurde aktualisiert, da einige Produkte an diesem Standort nicht verfügbar sind. Bitte überprüfen Sie Ihre Bestellung, bevor Sie diese aufgeben.",
+        "payment_method_not_available_with_review_requirement": "Die von Ihnen ausgewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung erst fällig wird, wenn Ihre Bestellung bestätigt ist."
       }
     }
   },
