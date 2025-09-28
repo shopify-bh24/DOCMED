@@ -694,7 +694,12 @@
           "delivery": {
             "selected_pickup_option_no_longer_available": "Ihre zuvor ausgewählte Abholoption ist nicht mehr verfügbar."
           }
-        }
+        },
+        "submit_for_review_notice_label": "Die Zahlung ist erst fällig, sobald Ihre Bestellung überprüft wurde."
+      },
+      "contact": {
+        "phone_tooltip": "Falls wir Sie zu Ihrer Bestellung kontaktieren müssen.",
+        "shipping_used_as_billing_notice": "Diese Adresse wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet."
       }
     }
   },
