@@ -29,7 +29,7 @@
             "subheading": "<p><strong>Im Dienste ihrer Gesundheit</strong></p>",
             "description": "Qualität, Zuverlässigkeit und schnelle Versorgung.",
             "text_style": "body",
-            "button_label": "Jetzt entdecken",
+            "button_label": "",
             "link": "shopify://collections/all",
             "link_window": false,
             "view_all_style": "solid",
