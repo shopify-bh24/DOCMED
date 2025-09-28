@@ -989,7 +989,8 @@
             "caption": "Erhalten Sie Zugriff auf alle Funktionen, die Sie benötigen, um Ihr Einzelhandelsgeschäft zu führen – egal, ob Sie gerade erst beginnen oder Ihr Geschäft erweitern möchten."
           },
           "store_owner": {
-            "caption": "Haben Sie Probleme beim Anmelden in Ihrem Shop? Probieren Sie die Funktion {{forgot_your_store_link}} aus. Wenn Sie Ihren Shop erneut aktivieren möchten, wenden Sie sich an den Shopify-Support."
+            "caption": "Haben Sie Probleme beim Anmelden in Ihrem Shop? Probieren Sie die Funktion {{forgot_your_store_link}} aus. Wenn Sie Ihren Shop erneut aktivieren möchten, wenden Sie sich an den Shopify-Support.",
+            "header": "Inhaber dieses Shops ? "
           }
         }
       }
