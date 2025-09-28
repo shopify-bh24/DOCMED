@@ -974,6 +974,18 @@
       },
       "shop_policies": {
         "cookie_preferences": "Cookies"
+      },
+      "payment_gateway": {
+        "login_prompt": {
+          "no_access": {
+            "link": "Anmelden"
+          }
+        }
+      },
+      "marketing": {
+        "unsubscribe": {
+          "title": "Abgemeldet"
+        }
       }
     },
     "errors": {
