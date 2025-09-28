@@ -244,11 +244,6 @@
         "disabled": false,
         "settings": {}
       },
-      "15351435345818755577": {
-        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
-        "disabled": true,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -262,6 +257,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "Wir sind für Sie da und freuen uns auf Ihre Fragen oder Ihr Feedback."
         }
+      },
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
