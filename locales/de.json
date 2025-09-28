@@ -1038,6 +1038,11 @@
     },
     "subscriptions": {
       "buyer_consent_cart": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein wiederkehrender Kauf oder ein Kauf mit Zahlungsaufschub."
+    },
+    "email_marketing": {
+      "unsubscribed": {
+        "disclaimer": "Sie erhalten von uns keine Marketing-Updates mehr. Sie könne sich jederzeit wieder anmelden."
+      }
     }
   },
   "customer_accounts": {
