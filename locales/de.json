@@ -874,6 +874,13 @@
       },
       "memberships": {
         "items_split_across_locations_unsupported": "Prime-Zustellung ist für Ihre Bestellung nicht verfügbar. Ihre Versandoptionen wurden aktualisiert."
+      },
+      "customer_account": {
+        "have_an_account_label": "Haben Sie ein Konto?",
+        "saved_address_option_description": {
+          "one": "Sie haben {{count}} gespeicherte Adresse.",
+          "other": "Sie haben {{count}} gespeicherte Adressen."
+        }
       }
     },
     "errors": {
