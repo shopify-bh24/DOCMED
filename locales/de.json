@@ -760,6 +760,13 @@
       },
       "change_cart_localization": {
         "verify_shipping_address": "Ihr Land/Ihre Region wurde basierend auf Ihrer Lieferadresse aktualisiert, um mit dem Checkout fortzufahren."
+      },
+      "session_errors": {
+        "session_not_unique": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite, um zum Shop zurückzukehren."
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Bitte überprüfen Sie diese oder verwenden Sie eine andere Adresse.",
+        "no_pickup_points_near_location": "Es wurde kein Abholpunkt in der Nähe Ihres Standortes gefunden."
       }
     }
   },
