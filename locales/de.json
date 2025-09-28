@@ -932,7 +932,13 @@
       "discount": "Rabatt",
       "login_card": {
         "log_in": "Anmelden"
-      }
+      },
+      "request_return_failed": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "shop_order_tracking": {
+        "title_header": "Mit Ihrem Mobiltelefon scannen",
+        "real_time_delivery_updates": "Shop sendet Ihnen Zustellungsaktualisierungen in Echtzeit, sobald Ihre Bestellung versendet wurde."
+      },
+      "ok_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versendet. Das bedeutet, dass Gebühren zu Ihrem Gesamtbestellwert hinzugefügt wurden."
     },
     "orders": {
       "order_list": {
@@ -951,6 +957,22 @@
         "confirmed_description_gift_card_text": "Sie erhalten eine SMS, sobald Ihre Bestellung bereit ist.",
         "gift_resend_failure": {
           "one": "Beim erneuten Senden Ihres Gutscheins ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an uns."
+        },
+        "delivery_promise": {
+          "details_modal": {
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantiert eine schnelle und zuverlässige Zustellung. Wenn Ihre Bestellung verspätet ankommt, haben Sie Anspruch auf Shop Cash.",
+              "claim_shop_cash_description": "Sie können Ihr Shop Cash für zukünftige Einkäufe in der Shop-App verwenden"
+            }
+          }
+        },
+        "delivery_promise_v2": {
+          "details_modal": {
+            "order_includes_guarantees_label": "Für Ihre Bestellung bestehen {{deliveryAgreementsCount}} Garantien.",
+            "order_includes_guarantees_description": "Shop Promise garantiert eine schnelle und zuverlässige Zustellung. Fordern Sie Shop Cash an, wenn Ihre Bestellung verspätet eintrifft.",
+            "delivered_after_description": "Da Ihre Bestellung verspätet eingetroffen ist, haben Sie Anspruch auf {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Da Ihre Bestellung verspätet eingetroffen ist, haben Sie Anspruch auf {{amount}} Shop Cash."
+          }
         }
       }
     }
