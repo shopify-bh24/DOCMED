@@ -715,6 +715,19 @@
         },
         "unpurchasable_product_generic": {
           "header": "Einige Artikel wurden aus Ihrem Warenkorb entfernt."
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Dieser Artikel wurde aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Zustellmethode verfügbar ist.",
+            "other": "Dieser Artikel wurde aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Zustellmethode verfügbar ist."
+          }
+        },
+        "price_update": {
+          "description": "Die Preise für diese Artikel haben sich geändert und wurden in Ihrem Warenkorb aktualisiert."
+        },
+        "out_of_stock": {
+          "description": "Dieser Artikel ist nicht mehr verfügbar und wurde aus Ihrem Warenkorb entfernt.",
+          "items_unavailable": "Einige Artikel ist nicht mehr verfügbar und wurde aus Ihrem Warenkorb entfernt."
         }
       }
     }
