@@ -13,7 +13,7 @@
       "login_form_heading": "Shop mit Passwort betreten:",
       "login_password_button": "Mit Passwort betreten",
       "login_form_password_label": "Passwort",
-      "login_form_password_placeholder": "Dein Passwort",
+      "login_form_password_placeholder": "Ihr Passwort",
       "login_form_error": "Falsches Passwort!",
       "login_form_submit": "Eingeben",
       "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"/admin\" class=\"link underlined-link\">Hier einloggen</a>",
@@ -81,7 +81,7 @@
   },
   "newsletter": {
     "label": "E-Mail",
-    "success": "Danke für deine Anmeldung",
+    "success": "Vielen Dank für Ihre Anmeldung.",
     "button_label": "Abonnieren"
   },
   "accessibility": {
@@ -120,8 +120,8 @@
       "post": "Kommentar posten",
       "back_to_blog": "Zurück zum Blog",
       "share": "Diesen Artikel teilen",
-      "success": "Dein Kommentar wurde erfolgreich gepostet! Vielen Dank!",
-      "success_moderated": "Dein Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen."
+      "success": "Ihr Kommentar wurde erfolgreich gepostet! Vielen Dank.",
+      "success_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, wird er nach kurzer Prüfung veröffentlicht."
     }
   },
   "onboarding": {
@@ -306,16 +306,16 @@
       }
     },
     "cart": {
-      "title": "Dein Warenkorb",
+      "title": "Ihr Warenkorb",
       "caption": "Artikel im Warenkorb",
       "remove_title": "{{ title }} entfernen",
       "subtotal": "Zwischensumme",
       "new_subtotal": "Neue Zwischensumme",
       "note": "Spezielle Bestellanweisungen",
       "checkout": "Auschecken",
-      "empty": "Dein Warenkorb ist leer",
-      "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
-      "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
+      "empty": "Ihr Warenkorb ist leer.",
+      "cart_error": "Beim Aktualisieren Ihres Warenkorbs ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+      "cart_quantity_error_html": "Sie können Ihrem Warenkorb nur {{quantity}} Stück dieses Artikels hinzufügen.",
       "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
       "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand </a> wird beim Checkout berechnet",
@@ -387,7 +387,7 @@
       "read_more": "Read more",
       "read_more_text": "Read more...",
       "onboarding_title": "Blog-Beitrag",
-      "onboarding_content": "Verschaffe deinen Kunden eine Übersicht über deinen Blog-Beitrag"
+      "onboarding_content": "Verschaffen Sie Ihren Kunden eine Übersicht über Ihren Blog-Beitrag."
     },
     "featured_collection": {
       "view_all": "Alle anzeigen",
