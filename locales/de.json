@@ -693,6 +693,9 @@
           },
           "delivery": {
             "selected_pickup_option_no_longer_available": "Ihre zuvor ausgewählte Abholoption ist nicht mehr verfügbar."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Die mit Ihrer Bestellung verbundenen Steuern haben sich geändert. Bitte überprüfen Sie diese und bestätigen Sie erneut."
           }
         },
         "submit_for_review_notice_label": "Die Zahlung ist erst fällig, sobald Ihre Bestellung überprüft wurde."
@@ -700,6 +703,10 @@
       "contact": {
         "phone_tooltip": "Falls wir Sie zu Ihrer Bestellung kontaktieren müssen.",
         "shipping_used_as_billing_notice": "Diese Adresse wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet."
+      },
+      "stock": {
+        "empty_cart_label": "Ihr Warenkorb ist leer.",
+        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar."
       }
     }
   },
