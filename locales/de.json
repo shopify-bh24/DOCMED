@@ -802,7 +802,28 @@
       },
       "wallets": {
         "payment_in_progress_body": "Ihre Zahlung wird verarbeitet. Ihre Bestellung wird in Kürze abgeschlossen.",
-        "redirection_notice": "Nachdem Sie auf „{{buttonLabel}}“ geklickt haben, werden Sie zu {{walletName}} weitergeleitet, um Ihren Einkauf sicher abzuschließen."
+        "redirection_notice": "Nachdem Sie auf „{{buttonLabel}}“ geklickt haben, werden Sie zu {{walletName}} weitergeleitet, um Ihren Einkauf sicher abzuschließen.",
+        "errors": {
+          "unavailable": {
+            "unavailable_for_country": "{{walletName}} ist in {{CountryName}} nicht verfügbar. Bitte wählen Sie eine andere Zahlungsmethode, um Ihren Kauf abzuschließen."
+          },
+          "detour": {
+            "price_change": "Einige Artikelpreise haben sich geändert. Bitte schließen Sie {{walletName}}, überprüfen Sie Ihre Bestellung und versuchen Sie es erneut."
+          },
+          "unsupported": {
+            "wallet_is_unavailable": "{{walletName}} kann mit dieser Adresse nicht verwendet werden. Bitte wählen Sie eine andere Adresse oder schließen Sie {{walletName}}, um fortzufahren."
+          },
+          "outdated": {
+            "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Bitte überprüfen Sie Ihre Auswahl.",
+            "payment_terms": "Die Zahlungsbedingungen haben sich geändert. Bitte überprüfen Sie Ihre Bestellung."
+          },
+          "formatting": {
+            "name_contains_emojis": "Bitte entfernen Sie Emojis aus Ihrem Namen.",
+            "postal_code_contains_emoji": "Bitte entfernen Sie Emojis aus Ihrer Postleitzahl."
+          },
+          "select_different_shipping_address_to_resolve_errors": "hre Lieferadresse ist ungültig. Bitte wählen Sie eine andere Adresse oder geben Sie eine neue ein.",
+          "discount_code": "Dieser Rabattcode kann nicht angewendet werden. Bitte überprüfen Sie den Code und versuchen Sie es erneut."
+        }
       }
     }
   },
