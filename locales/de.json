@@ -901,6 +901,14 @@
     "notices": {
       "customer": {
         "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail mit der Aufforderung, Ihr Passwort zu aktualisieren."
+      },
+      "cart": {
+        "all_items_in_cart": "Alle {{count}} {{name}} befinden sich in Ihrem Warenkorb.",
+        "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als {{max}} Artikel enthalten.",
+        "shipping_address_invalid": "Bei der Berechnung Ihrer Versandtarife ist ein Problem aufgetreten. Bitte fahren Sie mit dem Checkout fort, um einen Versandtarif zu wählen.",
+        "only_one_added_to_cart": "Aufgrund der Verfügbarkeit wurde nur 1 Artikel zu Ihrem Warenkorb hinzugefügt.",
+        "only_n_added_to_cart": "Aufgrund der Verfügbarkeit wurden nur {{quantity}} Artikel zu Ihrem Warenkorb hinzugefügt.",
+        "maximum_available_quantity_reached": "Die maximale verfügbare Menge dieses Artikels befindet sich bereits in Ihrem Warenkorb."
       }
     }
   },
