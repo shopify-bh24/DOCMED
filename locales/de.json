@@ -706,7 +706,16 @@
       },
       "stock": {
         "empty_cart_label": "Ihr Warenkorb ist leer.",
-        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar."
+        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
+        "quantity_update": {
+          "description": "Die verfügbare Menge dieser Artikel hat sich geändert und wurde in Ihrem Warenkorb aktualisiert."
+        },
+        "unpurchasable_product": {
+          "header": "Einige Artikel wurden aus Ihrem Warenkorb entfernt."
+        },
+        "unpurchasable_product_generic": {
+          "header": "Einige Artikel wurden aus Ihrem Warenkorb entfernt."
+        }
       }
     }
   },
