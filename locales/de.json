@@ -757,6 +757,9 @@
           "one": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
           "other": "Diese Produkte sind in Ihrem Land/Ihrer Region nicht verfügbar."
         }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Ihr Land/Ihre Region wurde basierend auf Ihrer Lieferadresse aktualisiert, um mit dem Checkout fortzufahren."
       }
     }
   },
