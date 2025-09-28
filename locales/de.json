@@ -875,6 +875,33 @@
       "memberships": {
         "items_split_across_locations_unsupported": "Prime-Zustellung ist für Ihre Bestellung nicht verfügbar. Ihre Versandoptionen wurden aktualisiert."
       }
+    },
+    "errors": {
+      "credit_card_session_expired": "Die Kreditkartenautorisierung ist abgelaufen. Bitte geben Sie Ihre Zahlungsinformationen erneut ein. Ihre Karte wurde nicht belastet.",
+      "gift_card_already_applied": "Der Code wurde bereits auf Ihre Bestellung angewendet.",
+      "gift_card_currency_mismatch": "Ihr Gutschein ist in {{gift_card_currency}}. Bitte kontaktieren Sie uns, um ihn in {{checkout_currency}} ausstellen zu lassen.",
+      "reset_password_html": "Diese E-Mail-Adresse ist bereits vergeben. Wenn es sich um Ihr Benutzerkonto handelt, können Sie <a href=\"/account/login#recover\">ein neues Passwort anfordern</a>.",
+      "verify_email": "Wir haben eine E-Mail an {{customer_email}} geschickt. Bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "shop_404": {
+        "owner_ctas": {
+          "fix_domain": "Schließen Sie die Einrichtung Ihrer neuen Webadresse ab. Gehen Sie zu {{domain_settings_link}}, klicken Sie auf „Domain verbinden“ und geben Sie Folgendes ein: {{domain}}.",
+          "fix_domain_link_text": "Ihre Domain-Einstellungen",
+          "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Onlineshop-Kanal in Ihrem {{admin_link}} hinzufügen. Wenn Sie Probleme beim Anmelden in Ihrem Shop haben, versuchen Sie es erneut."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Erhalten Sie Zugriff auf alle Funktionen, die Sie benötigen, um Ihr Einzelhandelsgeschäft zu führen – egal, ob Sie gerade erst beginnen oder Ihr Geschäft erweitern möchten."
+          },
+          "store_owner": {
+            "caption": "Haben Sie Probleme beim Anmelden in Ihrem Shop? Probieren Sie die Funktion {{forgot_your_store_link}} aus. Wenn Sie Ihren Shop erneut aktivieren möchten, wenden Sie sich an den Shopify-Support."
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail mit der Aufforderung, Ihr Passwort zu aktualisieren."
+      }
     }
   },
   "customer_accounts": {
