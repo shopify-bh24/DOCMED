@@ -908,8 +908,20 @@
         "shipping_address_invalid": "Bei der Berechnung Ihrer Versandtarife ist ein Problem aufgetreten. Bitte fahren Sie mit dem Checkout fort, um einen Versandtarif zu wählen.",
         "only_one_added_to_cart": "Aufgrund der Verfügbarkeit wurde nur 1 Artikel zu Ihrem Warenkorb hinzugefügt.",
         "only_n_added_to_cart": "Aufgrund der Verfügbarkeit wurden nur {{quantity}} Artikel zu Ihrem Warenkorb hinzugefügt.",
-        "maximum_available_quantity_reached": "Die maximale verfügbare Menge dieses Artikels befindet sich bereits in Ihrem Warenkorb."
+        "maximum_available_quantity_reached": "Die maximale verfügbare Menge dieses Artikels befindet sich bereits in Ihrem Warenkorb.",
+        "merchandise_line_transformers": {
+          "run_error": "In Ihrem Warenkorb ist ein Fehler aufgetreten."
+        }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Ihr Warenkorb"
+    },
+    "challenge": {
+      "error": "Ihre Antwort war nicht korrekt. Bitte versuchen Sie es erneut."
+    },
+    "search": {
+      "error": "Beim Laden Ihrer Suchergebnisse ist ein Problem aufgetreten. Bitte laden Sie die Seite neu oder versuchen Sie es später erneut."
     }
   },
   "customer_accounts": {
