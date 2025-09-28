@@ -997,10 +997,34 @@
             "deposit": {
               "due_later": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Die folgenden Bedingungen gelten.",
               "due_on_fulfillment": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Der Betrag wird fällig, sobald die Bestellung versendet wird.",
-              "due_on_receipt": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Der Betrag ist später fällig."
+              "due_on_receipt": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Der Betrag ist später fällig.",
+              "due_on_date": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Der Betrag ist am {{dueDate}} fällig."
             }
+          },
+          "paid": {
+            "description": "Ihre Bestellung wurde vollständig bezahlt."
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Ihre Zahlung ist seit {{count}} Tag überfällig.",
+              "other": "Ihre Zahlung ist seit {{count}} Tagen überfällig."
+            },
+            "banner_due": {
+              "one": "Ihre Zahlung ist in {{count}} Tag fällig.",
+              "other": "Ihre Zahlung ist in {{count}} Tagen fällig."
+            },
+            "banner_due_today": "Ihre Zahlung ist heute fällig.",
+            "description_overdue": "Ihre Zahlung ist im Verzug."
           }
         }
+      }
+    },
+    "errors": {
+      "addresses_loading_issue": {
+        "description": "Verbindungsfehler. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+      },
+      "failed_address_creation": {
+        "description": "Beim Erstellen Ihrer Adresse ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung."
       }
     }
   }
