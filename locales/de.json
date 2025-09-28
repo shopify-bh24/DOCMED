@@ -767,6 +767,14 @@
       "pickup_point": {
         "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Bitte überprüfen Sie diese oder verwenden Sie eine andere Adresse.",
         "no_pickup_points_near_location": "Es wurde kein Abholpunkt in der Nähe Ihres Standortes gefunden."
+      },
+      "notice_banner": {
+        "generic_processing_error": {
+          "title": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten."
+        },
+        "contact_information": {
+          "header": "Um Ihre Informationen zu aktualisieren, klicken Sie bitte hier: {{emailLink}}"
+        }
       }
     }
   },
