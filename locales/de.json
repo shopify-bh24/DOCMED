@@ -727,7 +727,28 @@
         "order_status_confirmed_with_installments_payment_confirm": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer und Ihrem Ratenplan.",
         "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App.",
         "order_status_payments_app_pending_payment_description_default_with_email": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App.",
-        "order_status_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App."
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App.",
+        "login_reorder_link_text": {
+          "one": "Diese Produkte ebenfalls kaufen",
+          "other": "diese Produkte ebenfalls kaufen"
+        },
+        "marker": {
+          "current": "Derzeitiger Standort der Sendung"
+        },
+        "fulfillment": {
+          "product_image_label": "Produktbild"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Derzeitiger Standort der Sendung"
+        },
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Sie erhalten in einigen Minuten eine Textnachricht mit Ihrem Gutschein.",
+          "other": "Sie erhalten in einigen Minuten eine Textnachricht mit Ihren Geschenkgutscheinen."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Sie erhalten in einigen Minuten eine E-Mail mit Ihrem Gutschein.",
+          "other": "Sie erhalten in einigen Minuten eine E-Mail mit Ihren Geschenkgutscheinen."
+        }
       },
       "general": {
         "errors": {
