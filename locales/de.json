@@ -126,7 +126,7 @@
   },
   "onboarding": {
     "product_title": "Beispiel für Produkttitel",
-    "collection_title": "Name deiner Kategorie",
+    "collection_title": "Name Ihrer Kategorie",
     "main_blog_title": "Example blog post",
     "main_blog_date": "Oct 22, 2022",
     "product_lck_desc": "Add product description here"
@@ -174,8 +174,8 @@
       "unavailable": "Nicht verfügbar",
       "vendor": "Anbieter",
       "video_exit_message": "{{ title }} öffnet das Video auf derselben Seite im Vollbildmodus.",
-      "xr_button": "In deinem Bereich ansehen",
-      "xr_button_label": "\"Ansicht in deinem Raum\" lädt den Artikel in ein Augmented-Reality-Fenster",
+      "xr_button": "In Ihrem Bereich ansehen",
+      "xr_button_label": "„Ansicht in Ihrem Raum“ lädt den Artikel in ein Augmented-Reality-Fenster.",
       "pickup_availability": {
         "view_store_info": "Shop-Informationen anzeigen",
         "check_other_stores": "Verfügbarkeit in anderen Shops überprüfen",
@@ -458,7 +458,7 @@
     "account_fallback": "Konto",
     "activate_account": {
       "title": "Konto aktivieren",
-      "subtext": "Erstelle ein Passwort, um dein Konto zu aktiveren.",
+      "subtext": "Erstellen Sie ein Passwort, um Ihr Konto zu aktivieren.",
       "password": "Passwort",
       "password_confirm": "Passwort bestätigen",
       "submit": "Konto aktivieren",
@@ -515,7 +515,7 @@
     "recover_password": {
       "title": "Zurücksetzen Ihres Passworts",
       "subtext": "Wir werden ihnen eine E-Mail zum Zurücksetzen des Passworts schicken",
-      "success": "Wir haben dir eine E-Mail mit einem Link zum Aktualisieren deines Passworts geschickt."
+      "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren Ihres Passworts geschickt."
     },
     "register": {
       "title": "Konto erstellen",
@@ -561,8 +561,8 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "Hier ist dein {{ value }}-Geschenkgutschein für {{ shop }}!",
-      "subtext": "Dein Geschenkgutschein",
+      "title": "Hier ist Ihr {{value}}-Geschenkgutschein für {{shop}}!",
+      "subtext": "Ihr Geschenkgutschein",
       "gift_card_code": "Gutscheincode",
       "shop_link": "Onlineshop besuchen",
       "add_to_apple_wallet": "Zu Apple Wallet hinzufügen",
@@ -634,7 +634,7 @@
       "nocontent": "There is no any content found.",
       "see_all": "Alle anzeigen",
       "free_ship": "Herzlichen Glückwunsch,",
-      "free_shipinner": "dein Warenkorb ist versandkostenfrei.",
+      "free_shipinner": "Ihr Warenkorb ist versandkostenfrei.",
       "free_shiponly": "Noch",
       "free_shipaway": "bis zum Kostenlosem Versand!",
       "order_note": "Bestellnotiz ",
