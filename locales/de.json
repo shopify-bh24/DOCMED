@@ -970,6 +970,9 @@
           "one": "Sie haben {{count}} gespeicherte Adresse.",
           "other": "Sie haben {{count}} gespeicherte Adressen."
         }
+      },
+      "shop_policies": {
+        "cookie_preferences": "Cookies"
       }
     },
     "errors": {
