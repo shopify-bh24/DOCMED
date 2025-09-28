@@ -729,6 +729,14 @@
           "description": "Dieser Artikel ist nicht mehr verfügbar und wurde aus Ihrem Warenkorb entfernt.",
           "items_unavailable": "Einige Artikel ist nicht mehr verfügbar und wurde aus Ihrem Warenkorb entfernt."
         }
+      },
+      "throttle": {
+        "cart_summary_heading": "Ihr Warenkorb",
+        "inventory": {
+          "sold_out": {
+            "heading": "Ihr Warenkorb ist ausverkauft"
+          }
+        }
       }
     }
   },
