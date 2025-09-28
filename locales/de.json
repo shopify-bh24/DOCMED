@@ -751,6 +751,12 @@
             "other": "Diese Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Zustellmethoden verfügbar sind."
           }
         }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "one": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
+          "other": "Diese Produkte sind in Ihrem Land/Ihrer Region nicht verfügbar."
+        }
       }
     }
   },
