@@ -931,14 +931,22 @@
     "order_details": {
       "discount": "Rabatt",
       "login_card": {
-        "log_in": "Anmelden"
+        "log_in": "Anmelden",
+        "resend_link_and_login": "Um Ihre Bestelldetails zu sehen, melden Sie sich an oder senden Sie einen neuen Link an Ihre E-Mail-Adresse.",
+        "resend_link_only": "Um Ihre Bestelldetails zu sehen, senden Sie einen neuen Link an Ihre E-Mail-Adresse oder Telefonnummer."
       },
       "request_return_failed": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
       "shop_order_tracking": {
         "title_header": "Mit Ihrem Mobiltelefon scannen",
         "real_time_delivery_updates": "Shop sendet Ihnen Zustellungsaktualisierungen in Echtzeit, sobald Ihre Bestellung versendet wurde."
       },
-      "ok_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versendet. Das bedeutet, dass Gebühren zu Ihrem Gesamtbestellwert hinzugefügt wurden."
+      "ok_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versendet. Das bedeutet, dass Gebühren zu Ihrem Gesamtbestellwert hinzugefügt wurden.",
+      "paid_with_shop_pay_installments_card": {
+        "description": "Behalten Sie Ihre Zahlungsplanung mit den Erinnerungen in der Shop-App im Griff.",
+        "desktop_qr_code_content": {
+          "description": "Erhalten Sie Erinnerungen für Ihre Raten bei Shop."
+        }
+      }
     },
     "orders": {
       "order_list": {
@@ -972,6 +980,25 @@
             "order_includes_guarantees_description": "Shop Promise garantiert eine schnelle und zuverlässige Zustellung. Fordern Sie Shop Cash an, wenn Ihre Bestellung verspätet eintrifft.",
             "delivered_after_description": "Da Ihre Bestellung verspätet eingetroffen ist, haben Sie Anspruch auf {{amount}} Shop Cash.",
             "eligible_to_claim_shop_cash_description": "Da Ihre Bestellung verspätet eingetroffen ist, haben Sie Anspruch auf {{amount}} Shop Cash."
+          }
+        }
+      }
+    },
+    "B2B": {
+      "locations": {
+        "permissions_label": "Ihre Berechtigungen"
+      },
+      "location_selection": {
+        "description": "Wenn Sie bereits Artikel in Ihrem Warenkorb haben, kann dies Auswirkungen auf Preise und Mengen haben."
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "draft": {
+            "deposit": {
+              "due_later": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Die folgenden Bedingungen gelten.",
+              "due_on_fulfillment": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Der Betrag wird fällig, sobald die Bestellung versendet wird.",
+              "due_on_receipt": "{{depositAmount}} ist fällig, sobald Ihre Bestellung bestätigt wird. Der Betrag ist später fällig."
+            }
           }
         }
       }
