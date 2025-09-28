@@ -1042,6 +1042,9 @@
     "email_marketing": {
       "unsubscribed": {
         "disclaimer": "Sie erhalten von uns keine Marketing-Updates mehr. Sie könne sich jederzeit wieder anmelden."
+      },
+      "subscribed": {
+        "disclaimer": "Sie können sich jederzeit wieder abmelden."
       }
     }
   },
