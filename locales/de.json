@@ -1025,6 +1025,33 @@
       },
       "failed_address_creation": {
         "description": "Beim Erstellen Ihrer Adresse ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "failed_address_update": {
+        "description": "Beim Aktualisieren Ihrer Adresse ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "profile_update_error": {
+        "description": "Beim Aktualisieren Ihres Profils ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "profile_name_update_error": {
+        "description": "Beim Aktualisieren Ihres Namens ist ein Problem aufgetreten. Bitte aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung."
+      }
+    },
+    "payment_methods": {
+      "payment_delete": {
+        "replace_method_with_new_method_description": "Ihre {{currentPaymentMethodName}} wird gelöscht und durch {{newPaymentMethodName}} ersetzt.",
+        "warning_message_with_replacement": {
+          "with_pending_orders": "Wenn Sie diese Zahlungsmethode löschen, wird sie aus Ihrem Konto entfernt und steht für zukünftige Käufe nicht mehr zur Verfügung. Wenn keine alternative Zahlungsmethode hinzugefügt wird, bleibt sie bei offenen Bestellungen erhalten."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders": "Wenn Sie diese Zahlungsmethode löschen, wird sie aus Ihrem Konto entfernt und steht für zukünftige Käufe nicht mehr zur Verfügung. Sie wird weiterhin bei offenen Bestellungen verwendet."
+        }
+      },
+      "card_fields": {
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte.",
+          "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite Ihrer Karte.",
+          "card_verification_value_explanation": "Ein 3-stelliger Sicherheitscode, der sich in der Regel auf der Rückseite Ihrer Karte befindet. American Express-Karten haben einen 4-stelligen Code auf der Vorderseite."
+        }
       }
     }
   }
