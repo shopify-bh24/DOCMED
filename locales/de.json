@@ -774,7 +774,8 @@
         "errors": {
           "session_identifier_not_unique_error": "Mit Ihrer Bestellung ist etwas schiefgelaufen. Bitte versuchen Sie es erneut.",
           "buyer_identity": {
-            "buyer_identity_presentment_currency_does_not_match": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut."
+            "buyer_identity_presentment_currency_does_not_match": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut.",
+            "customer_account_required": "Bitte melden Sie sich an, um fortzufahren."
           },
           "delivery": {
             "selected_pickup_option_no_longer_available": "Ihre zuvor ausgewählte Abholoption ist nicht mehr verfügbar."
