@@ -850,8 +850,30 @@
       },
       "shop_pay_external": {
         "errors": {
-          "try_again_later": "Bitte überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in ein paar Minuten erneut."
+          "try_again_later": "Bitte überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in ein paar Minuten erneut.",
+          "checkout_has_expired": "Ihr Checkout ist abgelaufen. Bitte schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} einzukaufen."
         }
+      },
+      "payment_challenge_modal": {
+        "instructions": "Schließen Sie Ihren Einkauf mit Ihrem {{paymentMethod}}-Code ab.",
+        "qr_code": {
+          "instructions": "Schließen Sie Ihren Einkauf mit Ihrem {{paymentMethod}}-Code ab."
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "all_products_one": "Das Produkt in Ihrem Warenkorb ist für die Lieferung nach {{location_name}} nicht verfügb",
+          "all_products_other": "Die Produkte in Ihrem Warenkorb sind für die Lieferung nach {{location_name}} nicht verfügbar."
+        },
+        "missing_country_fallback": "Ihr Land",
+        "indeterminate_location_fallback": "Ihr Standort",
+        "cart_updated": "Ihr Warenkorb wurde aktualisiert."
+      },
+      "memberships": {
+        "items_split_across_locations_unsupported": "Prime-Zustellung ist für Ihre Bestellung nicht verfügbar. Ihre Versandoptionen wurden aktualisiert."
       }
     }
   },
