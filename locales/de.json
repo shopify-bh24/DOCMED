@@ -698,7 +698,22 @@
         "in_transit_description": "Sie erhalten Aktualisierungen zum Bestellstatus.",
         "in_transit_description_days": "Sie sollten Ihre Bestellung in den nächsten {{number}} Tagen erhalten.",
         "in_transit_description_today": "Sie sollten Ihre Bestellung heute erhalten.",
-        "in_transit_description_tomorrow": "Sie sollten Ihre Bestellung morgen erhalten."
+        "in_transit_description_tomorrow": "Sie sollten Ihre Bestellung morgen erhalten.",
+        "delivered_description_html": "Ihre Bestellung wurde an die von Ihnen angegebene Adresse zugestellt. {{contact_us}}, falls Sie die Bestellung nicht erhalten haben oder andere Probleme bestehen.",
+        "contact_us_html": "Benötigen Sie Hilfe? {{contact_us}}",
+        "login_description": "Sie können die Bestellnummer in dem Beleg finden, den Sie per E-Mail erhalten haben.",
+        "login_description_phone": "Ihre Bestellnummer finden Sie im Beleg, den Sie per SMS erhalten haben.",
+        "login_not_customer_html": "Nicht {{name}}? Sie können sich hier anmelden: {{link}}",
+        "cancelled_description": "Ihre Bestellung wurde am {{date}} storniert. Kontaktieren Sie uns, falls Sie Fragen haben.",
+        "order_updates_description_missing": "Sie erhalten keine Versandaktualisierungen.",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Sie erhalten Versandaktualisierungen per E-Mail oder SMS.",
+        "track_shipment": "Sendung verfolgen",
+        "order_status_confirmed_order_with_email_pick_up": "Sie erhalten eine E-Mail, sobald Ihre Bestellung zur Abholung bereit ist.",
+        "order_status_confirmed_order_with_phone_pick_up": "Sie erhalten eine SMS, sobald Ihre Bestellung zur Abholung bereit ist.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Sie erhalten eine E-Mail und eine SMS, sobald Ihre Bestellung zur Abholung bereit ist.",
+        "thank_you_confirmed_order_with_email_pick_up": "Sie erhalten eine E-Mail, sobald Ihre Bestellung zur Abholung bereit ist.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Sie erhalten eine SMS, sobald Ihre Bestellung zur Abholung bereit ist.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Sie erhalten eine E-Mail und eine SMS, sobald Ihre Bestellung zur Abholung bereit ist."
       },
       "general": {
         "errors": {
