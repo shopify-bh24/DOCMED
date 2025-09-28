@@ -986,6 +986,11 @@
         "unsubscribe": {
           "title": "Abgemeldet"
         }
+      },
+      "payment": {
+        "edit_credit_card_modal": {
+          "description": "Sie können nur die Rechnungsadresse ihrer Karte bearbeiten."
+        }
       }
     },
     "errors": {
