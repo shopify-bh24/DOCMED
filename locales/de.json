@@ -713,7 +713,21 @@
         "order_status_confirmed_order_with_email_and_phone_pick_up": "Sie erhalten eine E-Mail und eine SMS, sobald Ihre Bestellung zur Abholung bereit ist.",
         "thank_you_confirmed_order_with_email_pick_up": "Sie erhalten eine E-Mail, sobald Ihre Bestellung zur Abholung bereit ist.",
         "thank_you_confirmed_order_with_phone_pick_up": "Sie erhalten eine SMS, sobald Ihre Bestellung zur Abholung bereit ist.",
-        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Sie erhalten eine E-Mail und eine SMS, sobald Ihre Bestellung zur Abholung bereit ist."
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Sie erhalten eine E-Mail und eine SMS, sobald Ihre Bestellung zur Abholung bereit ist.",
+        "shop_phone_description": "Sie erhalten eine SMS mit einem Link zur Shop-App, um Ihre Bestellung zu verfolgen.",
+        "delivered_local_description_html": "Haben Sie Ihre Bestellung nicht erhalten? {{let_us_know}}",
+        "gift_card_confirmation_by_text": "Wenn Sie die Nachricht nicht erhalten haben, senden Sie die Textnachricht erneut oder kontaktieren Sie uns.",
+        "gift_card_confirmation_by_email": "Wenn Sie die E-Mail nicht erhalten haben, senden Sie diese erneut oder kontaktieren Sie uns.",
+        "thank_you_confirmed_order_with_email_payment": "Sie haben am {{date}} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "thank_you_confirmed_order_with_phone_payment": "Sie haben am {{date}} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Sie haben am {{date}} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "order_status_confirmed_order_with_email_payment": "Sie haben am {{date}} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "order_status_confirmed_order_with_phone_payment": "Sie haben am {{date}} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Sie haben am {{date}} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "order_status_confirmed_with_installments_payment_confirm": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer und Ihrem Ratenplan.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Shop-App."
       },
       "general": {
         "errors": {
