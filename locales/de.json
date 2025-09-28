@@ -922,6 +922,9 @@
     },
     "search": {
       "error": "Beim Laden Ihrer Suchergebnisse ist ein Problem aufgetreten. Bitte laden Sie die Seite neu oder versuchen Sie es später erneut."
+    },
+    "subscriptions": {
+      "buyer_consent_cart": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein wiederkehrender Kauf oder ein Kauf mit Zahlungsaufschub."
     }
   },
   "customer_accounts": {
@@ -929,6 +932,26 @@
       "discount": "Rabatt",
       "login_card": {
         "log_in": "Anmelden"
+      }
+    },
+    "orders": {
+      "order_list": {
+        "no_filtered_results_description": "Passen Sie die Filter an oder entfernen Sie diese, um Ihre Bestellungen zu sehen.",
+        "no_order_banner": "Erstellen Sie eine Bestellung, um Ihre Erweiterung auf der Bestellstatus-Seite zu testen."
+      },
+      "order_status": {
+        "canceled_title": "Ihre Bestellung wurde storniert.",
+        "come_back": "Besuchen Sie diese Seite, um sich über den aktuellen Lieferstatus Ihrer Sendung zu informieren.",
+        "confirmed_title": "Ihre Bestellung wurde bestätigt.",
+        "in_review_title": "Ihre Bestellung wird überprüft.",
+        "ready_for_pickup_description": "Diese Artikel sind abholbereit. Bitte bringen Sie Ihre Bestellbestätigung zur Abholung mit.",
+        "confirmed_description_digital": "Sie erhalten eine E-Mail, sobald Ihre Bestellung bereit ist.",
+        "ready_for_pickup_location": "Ihre Bestellung steht am Standort zur Abholung bereit.",
+        "confirmed_description_pickup": "Sie erhalten eine E-Mail, wenn Ihre Bestellung zur Abholung bereit ist.",
+        "confirmed_description_gift_card_text": "Sie erhalten eine SMS, sobald Ihre Bestellung bereit ist.",
+        "gift_resend_failure": {
+          "one": "Beim erneuten Senden Ihres Gutscheins ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an uns."
+        }
       }
     }
   }
