@@ -30,7 +30,7 @@
             "description": "Qualität, Zuverlässigkeit und schnelle Versorgung.",
             "text_style": "body",
             "button_label": "Jetzt entdecken",
-            "link": "shopify://collections",
+            "link": "shopify://collections/all",
             "link_window": false,
             "view_all_style": "solid",
             "box_align": "middle-left",
