@@ -748,6 +748,26 @@
         "gift_card_confirmation_by_email_typ": {
           "one": "Sie erhalten in einigen Minuten eine E-Mail mit Ihrem Gutschein.",
           "other": "Sie erhalten in einigen Minuten eine E-Mail mit Ihren Geschenkgutscheinen."
+        },
+        "thank_you_confirmed_items_with_email": {
+          "one": "Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+          "other": "Sie erhalten in Kürze Bestätigungs-E-Mails."
+        },
+        "thank_you_confirmed_items_with_phone": {
+          "one": "Sie erhalten in Kürze eine Bestätigungs-SMS.",
+          "other": "Sie erhalten in Kürze Bestätigungs-SMS."
+        },
+        "thank_you_confirmed_orders_with_email_description": {
+          "one": "Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+          "other": "Sie erhalten in Kürze separate Bestätigungs-E-Mails von jedem Shop."
+        },
+        "thank_you_confirmed_orders_with_phone_description": {
+          "one": "Sie erhalten in Kürze eine Bestätigungs-SMS.",
+          "other": "Sie erhalten in Kürze separate Bestätigungs-SMS von jedem Shop."
+        },
+        "thank_you_confirmed_orders_with_email_and_phone_description": {
+          "one": "Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+          "other": "Sie erhalten in Kürze separate Bestätigungs-E-Mails von jedem Shop."
         }
       },
       "general": {
