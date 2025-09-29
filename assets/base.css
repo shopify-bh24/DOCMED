@@ -1580,7 +1580,7 @@ button.shopify-payment-button__button--unbranded,
     position: relative;
     font-style: var(--font-body-style);
 }
-.button,
+/* .button, */
 .shopify-challenge__button,
 .customer button,
 button.shopify-payment-button__button--unbranded {
@@ -5264,9 +5264,9 @@ button:has(.cus-card-svg){
     width: fit-content !important;
     min-width: fit-content;
     margin-right: 0px;
-     display: flex; 
+    display: flex; 
     justify-self: end; 
-    padding:0 12px !important;
+    padding:12px !important;
 }
 
 

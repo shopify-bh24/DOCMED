@@ -29,7 +29,7 @@
       endif
   -%}
   <div class="card-wrapper wbproduct-container product-card-wrapper {{ settings.card_text_alignment }}">
-    <div class=" card card--{{ card_style }}
+    <div class="related_product-cell card card--{{ card_style }}
         {%- if card_product.featured_media == blank and card_style == 'card' -%} blank__image {% endif %}
         {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
         {% if card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
@@ -357,69 +357,6 @@
                 <div class="card-information">
 
                   <span class="caption-large light cardhide_toggle">{{ block.settings.description | escape }}</span> 
-
-                  {% comment %} {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
-                    {% if settings.review_app == 'default' %}
-                      {%- if card_product.metafields.reviews.rating.value != blank -%}
-                        <div class="wbhrating cardhide_toggle">
-                          {% liquid
-                          assign rating_decimal = 0 
-                          assign decimal = card_product.metafields.reviews.rating.value.rating | modulo: 1 
-                          if decimal >= 0.3 and decimal <= 0.7
-                          assign rating_decimal = 0.5
-                          elsif decimal > 0.7
-                          assign rating_decimal = 1
-                          endif 
-                          %}
-                          <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: card_product.metafields.reviews.rating.value, rating_max: card_product.metafields.reviews.rating.value.scale_max }}">
-                              <span aria-hidden="true" class="rating-star" style="--rating: {{ card_product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ card_product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
-                          </div>
-                          <p class="rating-text caption">
-                            <span aria-hidden="true">{{ card_product.metafields.reviews.rating.value }} / {{ card_product.metafields.reviews.rating.value.scale_max }}</span>
-                          </p>
-                          <p class="rating-count caption">
-                            <span aria-hidden="true" class="visually-hidden">({{ card_product.metafields.reviews.rating_count }})</span>
-                            <span>( {{ card_product.metafields.reviews.rating_count }} )</span>
-                          </p>
-                        </div>
-                      {%- endif -%}
-                    {%- elsif settings.review_app == 'judgeme' -%}
-                        <div class="wbhrating">
-                          <div class="rating"> 
-                             <div class='jdgm-widget jdgm-preview-badge'>
-                              {{ card_product.metafields.judgeme.badge }}
-                            </div>
-                          </div>
-                        </div>
-                    {%- elsif settings.review_app == 'loox' -%}
-                      <div class="wbhrating">
-                        <div class="rating">
-                          <div class="loox-rating" data-id="{{ card_product.id }}" data-rating="{{ card_product.metafields.loox.avg_rating }}" data-raters="{{ card_product.metafields.loox.num_reviews }}"></div>
-                        </div>
-                      </div>
-                    {%- elsif settings.review_app == 'wisernotify' -%}
-                      <div class="wbhrating">
-                        <div class="rating">
-                            {% render 'wnreview_widgets', widget_type: 'wnreview_star_rating', card_product: product %}
-                        </div>
-                      </div>
-                    {%- elsif settings.review_app == 'okendo' -%}
-                      <div class="wbhrating">
-                        <div class="rating">
-                          {% capture product_data_attribute %}data-oke-reviews-product-id="shopify-{{ card_product.id }}"{% endcapture %} 
-                          <div data-oke-star-rating {{ product_data_attribute }}>{{ card_product.metafields.okendo.StarRatingSnippet }}</div>
-                        </div>
-                      </div>
-                    {%- endif -%}
-                  {% else %}
-                    <div class="star-rating">
-                        <span class="stars">
-                          ★★★★★
-                        </span>
-                        <span class="review-count">0 reviews</span>
-                      </div>
-                  {%- endif -%} {% endcomment %}
-
 
                    {%- if show_sku -%}<div class="product__sku cardhide_toggle">
                     {% if card_product.selected_or_first_available_variant.sku != '' %}
@@ -760,7 +697,7 @@
                             class="add-to-cart__submit button button--primary" aria-haspopup="dialog"
                             aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                             aria-live="polite"
-                            data-sold-out-message="true" {% if card_product.selected_or_first_available_variant.available == false %} disabled {% endif %}>
+                            data-sold-out-message="true" {% if card_product.selected_or_first_available_variant.available == false %} {% endif %}>
                         {%- if card_product.selected_or_first_available_variant.available -%}
                             
                           {% comment %} <span>{{ 'products.product.add_to_cart' | t }}</span> {% endcomment %}
@@ -868,7 +805,6 @@
                       value="{{ card_product.selected_or_first_available_variant.id }}"
                       class="product-variant-id"
                       {% if card_product.selected_or_first_available_variant.available == false %}
-                        disabled
                       {% endif %}
                     >
                     <button
@@ -879,22 +815,12 @@
                       aria-haspopup="dialog"
                       aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                       aria-live="polite"
-                      data-sold-out-message="true"
+                      data-sold-out-message="true"                      
+                      {% if card_product.selected_or_first_available_variant.available != true %}
+                      {% endif %}
+                      >
                       
-                       {% comment %} {% if card_product.selected_or_first_available_variant.available != true %}
-                        disabled
-                      {% endif %}  {% endcomment %}
-
-                    >
-                      {% comment %} <span>
-                        {%- if card_product.selected_or_first_available_variant.available -%}
-                          {{ 'products.product.add_to_cart' | t }}
-                          {{ 'products.product.add_to_cart' | t }}
-                        {%- else -%}
-                          {{ 'products.product.sold_out' | t }}
-                        {%- endif -%}
-                      </span> {% endcomment %}
-                       {% comment %} ===========================custom btns part========================= {% endcomment %}
+                      {% comment %} disabled {% endcomment %}
 
                     <span class="cus-card-svg"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19" stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                             <path d="M5 12H19" stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
