@@ -99,7 +99,6 @@
         },
         "icon_with_text_wMJqx6": {
           "type": "icon-with-text",
-          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "truck",
@@ -184,7 +183,7 @@
       "custom_css": [],
       "settings": {
         "tabs_position": "below_buy",
-        "btns_gap": 100,
+        "btns_gap": 50,
         "btns_gap_mobile": 50,
         "button_line_thickness": 3,
         "bts_padding_vertical": 0,
@@ -217,7 +216,7 @@
         "background_color": "#fcfaf7",
         "background_gradient": "",
         "border_color": "#1d2e40",
-        "margin_top": 100,
+        "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 0,
         "padding_bottom": 0,
